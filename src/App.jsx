@@ -104,11 +104,11 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='bg-[#EFFAFA] pb-20'>
       <header className='bg-[#5CA5A5]'>
         <img src={bg} />
       </header>
-      <div className='container mx-auto mb-20'>
+      <div className='container mx-auto'>
         <form onSubmit={handleSubmit} className='border container mx-auto p-10 w-[500px] rounded-xl my-[2%]'>
           <h1 className='text-2xl mb-7 text-center font-bold'>Vakansiya malumotlarini kirting</h1>
           <label className='text-lg font-medium'>Logotip Url</label><br />
